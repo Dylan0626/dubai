@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dylan Dubai Trip</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fdfdfd;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .container {
+      padding: 2rem 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    details {
+      margin-bottom: 1.5rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    summary {
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 1rem;
+      background-color: #f0f8ff;
+      border-bottom: 1px solid #eee;
+      border-radius: 8px 8px 0 0;
+    }
+    .item {
+      padding: 1rem;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .item:last-child {
+      border-bottom: none;
+    }
+    .item h4 {
+      margin: 0 0 0.5rem 0;
+      color: #0056b3;
+    }
+    .item a {
+      color: #0072ff;
+      text-decoration: none;
+    }
+    .item a:hover {
+      text-decoration: underline;
+    }
+    .item img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-top: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dylan Dubai Trip</h1>
+  </header>
+  <div class="container">
+
+    <details open>
+      <summary>Desert & Adventure</summary>
+      <div class="item">
+        <h4><a href="https://www.platinum-heritage.com/" target="_blank">Evening Desert Safari 🔗</a></h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Dubai_Desert_Safari_02.jpg/1280px-Dubai_Desert_Safari_02.jpg" alt="Evening Desert Safari" />
+      </div>
+      <div class="item">
+        <h4>ATV or Dune Buggy Ride</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Dune_Bashing_in_Abu_Dhabi.jpg/1280px-Dune_Bashing_in_Abu_Dhabi.jpg" alt="Dune Buggy Ride" />
+      </div>
+      <div class="item">
+        <h4><a href="https://www.imgworlds.com/" target="_blank">IMG Worlds of Adventure 🔗</a></h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/IMG_Worlds_of_Adventure.jpg/1280px-IMG_Worlds_of_Adventure.jpg" alt="IMG Worlds of Adventure" />
+      </div>
+    </details>
+
+    <details>
+      <summary>Iconic Views & Modern Architecture</summary>
+      <div class="item">
+        <h4><a href="https://www.burjkhalifa.ae/" target="_blank">Burj Khalifa 🔗</a></h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Burj_Khalifa.jpg/800px-Burj_Khalifa.jpg" alt="Burj Khalifa" />
+      </div>
+      <div class="item">
+        <h4><a href="https://www.dubaiframe.ae/" target="_blank">Dubai Frame 🔗</a></h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Dubai_Frame_daytime.jpg/1280px-Dubai_Frame_daytime.jpg" alt="Dubai Frame" />
+      </div>
+      <div class="item">
+        <h4><a href="https://www.theviewpalm.ae/" target="_blank">The View at The Palm 🔗</a></h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/The_Palm_Jumeirah.jpg/1280px-The_Palm_Jumeirah.jpg" alt="The View at The Palm" />
+      </div>
+    </details>
+
+    <details>
+      <summary>Culture & History</summary>
+      <div class="item">
+        <h4>Al Fahidi Historical District</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Al_Fahidi_Historical_Neighborhood.jpg/1280px-Al_Fahidi_Historical_Neighborhood.jpg" alt="Al Fahidi Historical District" />
+      </div>
+      <div class="item">
+        <h4>Dubai Museum / Al Fahidi Fort</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Al_Fahidi_Fort_Dubai.jpg/1280px-Al_Fahidi_Fort_Dubai.jpg" alt="Dubai Museum" />
+      </div>
+      <div class="item">
+        <h4><a href="https://www.etihadmuseum.dubaiculture.gov.ae/" target="_blank">Etihad Museum 🔗</a></h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Etihad_Museum.jpg/1280px-Etihad_Museum.jpg" alt="Etihad Museum" />
+      </div>
+    </details>
+
+    <details>
+      <summary>Shopping & Browsing</summary>
+      <div class="item">
+        <h4><a href="https://thedubaimall.com/" target="_blank">The Dubai Mall 🔗</a></h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dubai_Mall_atrium.jpg/1280px-Dubai_Mall_atrium.jpg" alt="The Dubai Mall" />
+      </div>
+      <div class="item">
+        <h4><a href="https://www.malloftheemirates.com/" target="_blank">Mall of the Emirates 🔗</a></h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mall_of_the_Emirates.jpg/1280px-Mall_of_the_Emirates.jpg" alt="Mall of the Emirates" />
+      </div>
+      <div class="item">
+        <h4>Souk Madinat Jumeirah</h4>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Souk_Madinat_Jumeirah.jpg/1280px-Souk_Madinat_Jumeirah.jpg" alt="Souk Madinat Jumeirah" />
+      </div>
+    </details>
+
+  </div>
+</body>
+</html>
